@@ -17,16 +17,16 @@ If you get a build error from linker like
 gcc: error: /home/oleg/go/src/github.com/olegabu/go-secp256k1-zkp/secp256k1-zkp/.libs/libsecp256k1.a: No such file or directory
 ```
 
-please build [go-mimblewimble](https://github.com/olegabu/go-mimblewimble) library
+please build [go-secp256k1-zkp](https://github.com/olegabu/go-secp256k1-zkp) library
 
 ```bash
 # clone if needed
 mkdir -p $GOPATH/github.com/olegabu
 cd $GOPATH/github.com/olegabu
-git clone https://github.com/olegabu/go-mimblewimble
+git clone https://github.com/olegabu/go-secp256k1-zkp
 
 # build
-cd $GOPATH/github.com/olegabu/go-mimblewimble
+cd $GOPATH/github.com/olegabu/go-secp256k1-zkp
 make
 ```
 
